@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.ball {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+#click {
+    font-family: sans-serif;
+    font-size: x-large;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
